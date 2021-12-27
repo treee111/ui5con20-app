@@ -12,12 +12,14 @@
 		"@ui5con20/server": "file:../ui5con20-server",
 		"ui5-middleware-livereload": "^0.5.1",
 		"@ui5/cli": "^2.14.2",
-		"eslint": "^8.5.0"
+		"eslint": "^8.5.0",
+		"ui5-middleware-simpleproxy": "^0.7.6"
 	},
 	"ui5": {
 		"dependencies": [
 			"@ui5con20/server",
-			"ui5-middleware-livereload"
+			"ui5-middleware-livereload",
+			"ui5-middleware-simpleproxy"
 		]
 	}
 }
