@@ -9,8 +9,7 @@
 		"start": "ui5 serve -o index.html"
 	},
 	"dependencies": {
-		"@ui5con20/library": "file:../ui5con20-library",
-		"@ui5con20/theme-library": "file:../ui5con20-theme-library"
+		"@ui5con20/library": "file:../ui5con20-library"
 	},
 	"devDependencies": {
 		"@ui5con20/server": "file:../ui5con20-server",
@@ -22,7 +21,6 @@
 		"dependencies": [
 			"@ui5con20/library",
 			"@ui5con20/server",
-			"@ui5con20/theme-library",
 			"ui5-middleware-livereload"
 		]
 	}
