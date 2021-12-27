@@ -35,7 +35,6 @@ sap.ui.define([
 			this.setModel(oViewModel, "objectView");
 			oViewModel.setProperty("/delay", iOriginalBusyDelay);
 
-			this.initChart();
 		},
 
 		initChart: function() {
