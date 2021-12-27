@@ -50,7 +50,8 @@
 			"libs": {
 				"sap.ui.core": {},
 				"sap.m": {},
-				"sap.f": {}
+				"sap.f": {},
+				"ui5con20.library": {}
 			}
 		},
 

@@ -2,6 +2,7 @@
 	controllerName="ui5con20.app.controller.Object"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
+	xmlns:lib="ui5con20.library"
 	xmlns:semantic="sap.f.semantic">
 
 	<semantic:SemanticPage
@@ -33,6 +34,9 @@
 		</semantic:headerContent>
 
 		<semantic:content>
+			<lib:Chart
+				id="chart"
+				data="{downloadsRange}"/>
 		</semantic:content>
 
 	</semantic:SemanticPage>
