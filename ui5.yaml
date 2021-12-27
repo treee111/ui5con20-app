@@ -3,7 +3,7 @@ metadata:
   name: app
 type: application
 framework:
-  name: OpenUI5
+  name: SAPUI5
   version: "1.79.0"
   libraries:
     - name: sap.f
